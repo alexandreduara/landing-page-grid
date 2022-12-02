@@ -9,6 +9,7 @@
 
 *{
     text-decoration: none;
+    text-decoration: none;
     margin: 0px;
     padding: 0px;
 }
@@ -357,6 +358,34 @@ footer{
 .logo__footer{
     display: flex;
     width: 140px;
+    margin: 0px auto;
+    padding: 60px 0px 30px 0px;
+}
+
+.social__media--footer{
+    width: 40vw;
+    display: flex;
+    padding: 40px 0px 30px 0px;
+    margin: 0px auto;
+    justify-content: space-between
+}
+
+.text__footer--rights{
+    color: var(--dark-gray);
+    text-align: center;
+}
+
+.credits, .credits__name{
+    color: var(--white);
+    font-size: 4vw;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.credits__name{
+    color: #00ff0d;
+    text-decoration: underline;
+    font-size: 5vw;
     margin: 0px auto;
     padding: 60px 0px 30px 0px;
 }
