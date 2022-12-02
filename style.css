@@ -8,6 +8,7 @@
 }
 
 *{
+    text-decoration: none;
     margin: 0px;
     padding: 0px;
 }
@@ -39,12 +40,14 @@ header{
     background-color: transparent;
     position: absolute;
     right: 50px;
-    top: 38px;
-    display: flex;
+    top: 5.5vh;
+    display: inline-flex;
+    border: 0px transparent;
 }
 
 .menu__button--image{
-    width: 30px;
+    width: 25px;
+    height: 25px;
 }
 
 .menu__lateral--links{
@@ -53,7 +56,7 @@ header{
 
 .menu__lateral--item{
     text-decoration: none;
-    color: var(--white);
+    color: var(--dark-gray);
     font-weight: 400;
     font-size: 2em;
     margin: 30px 0px 0px 40px;
@@ -68,4 +71,170 @@ header{
     width: 100vw;
     display: flex;
     flex-direction: column;
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+}
+
+.menu__lateral--active{
+    width: 100vw;
+    height: 100vh;
+    overflow: visible;
+    z-index: 2;
+}
+
+.menu__lateral--header{
+    position: absolute;
+    width: 100vw;
+    top: 0px;
+    z-index: 3;
+}
+
+.header__title{
+    position: relative;
+    bottom: 500px;
+    width: 280px;
+    border: 3px solid var(--white);
+    color: var(--white);
+    font-weight: 300;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding: 25px;
+    margin: 0px auto;
+    z-index: 1;
+}
+
+@media screen and (min-width: 1440px) {   
+    header{ 
+        height: 40vh;
+    }
+    .hero__image{
+        background-image: url("./images/desktop/image-hero.jpg");    
+    }
+}
+
+.main__image--vr{
+    width: 90vw;
+    padding: 15vw 5vw 10vw 5vw ;
+    display: flex;
+}
+
+.main__title--leader, .main__title--creations{
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0px auto;
+    font-size: 09vw;
+}
+
+.main__text--leader{
+    text-align: center;
+    padding: 20px 30px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.main__card{
+    width: 85vw;
+    height: 30vw;
+    margin: 5vw 0px 5vw 5vw;
+    display: flex;
+    align-items: flex-end;
+    font-size: 1.5em;
+    color: var(--very-dark-gray);
+    padding: 0px 0px 5vw 5vw;
+    text-transform: uppercase;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: 300;
+}
+
+/* Imagens dos cards */
+
+.main__card--deep-earth{
+    background-image: url("./images/mobile/image-deep-earth.jpg");
+}
+.main__card--night-arcade{
+    background-image: url("./images/mobile/image-night-arcade.jpg");
+}
+.main__card--soccer-team{
+    background-image: url("./images/mobile/image-soccer-team.jpg");
+}
+.main__card--grid{
+    background-image: url("./images/mobile/image-grid.jpg");
+}
+.main__card--from-above{
+    background-image: url("./images/mobile/image-from-above.jpg");
+}
+.main__card--pocket-borealis{
+    background-image: url("./images/mobile/image-pocket-borealis.jpg");
+}
+.main__card--curiosity{
+    background-image: url("./images/mobile/image-curiosity.jpg");
+}
+.main__card--fisheye{
+    background-image: url("./images/mobile/image-fisheye.jpg");
+}
+
+.main__button{
+    width: 40vw;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    background-color: transparent;
+    border: 1px solid var(--black);
+    display: flex;
+    justify-content: center;
+    margin: 40px auto 90px auto;
+    text-align: center;
+}
+
+footer{
+    background-color: var(--black);    
+    height: 60vh;
+}
+
+.menu__footer--item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: var(--white);
+    padding: 10px;
+    font-size: 4vw;
+}
+
+.logo__footer{
+    display: flex;
+    width: 140px;
+    margin: 0px auto;
+    padding: 60px 0px 30px 0px;
+}
+
+.social__media--footer{
+    width: 40vw;
+    display: flex;
+    padding: 40px 0px 30px 0px;
+    margin: 0px auto;
+    justify-content: space-between
+}
+
+.text__footer--rights{
+    color: var(--dark-gray);
+    text-align: center;
+}
+
+.credits, .credits__name{
+    color: var(--white);
+    font-size: 4vw;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.credits__name{
+    color: #00ff0d;
+    text-decoration: underline;
+    font-size: 5vw;
 }
