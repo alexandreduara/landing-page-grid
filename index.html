@@ -6,28 +6,28 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">  
   <title>Frontend Mentor | Loopstudios landing page</title>
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
   <header>
     <div class="hero__image">
-      <img src="./images/logo.svg" alt="Logo Loopstudios" class="logo">
-      <button class="menu__button"><img src="./images/icon-hamburger.svg" alt=""></button>
-
-      <nav class="menu__lateral">
-        <a href="#" class="menu__lateral--item">About</a>
-        <a href="#" class="menu__lateral--item">Careers</a>
-        <a href="#" class="menu__lateral--item">Events</a>
-        <a href="#" class="menu__lateral--item">Products</a>
-        <a href="#" class="menu__lateral--item">Support</a>
+      <div class="menu__lateral--header">
+        <img src="./images/logo.svg" alt="Logo Loopstudios" class="logo">
+        <button class="menu__button"><img src="./images/icon-hamburger.svg" class="menu__button--image"></button>
+      </div>
+      
+      <nav class="menu__lateral ">
+        
+        <div class="menu__lateral--links"></div>
+          <a href="#" class="menu__lateral--item">About</a>
+          <a href="#" class="menu__lateral--item">Careers</a>
+          <a href="#" class="menu__lateral--item">Events</a>
+          <a href="#" class="menu__lateral--item">Products</a>
+          <a href="#" class="menu__lateral--item">Support</a>
+        </div>
       </nav>
-
-      <h1 class="header__title">Immersive experiences that deliver</h1>
     </div>
+    <h1 class="header__title">Immersive experiences that deliver</h1>
   </header>
 
   <main>
@@ -42,14 +42,14 @@
     <h2 class="main__title--creations">Our creations</h2>
 
     <div class="main__cards">
-      <a href="#"><article class="main__card">Deep earth</article></a>
-      <a href="#"><article class="main__card">Night arcade</article></a>
-      <a href="#"><article class="main__card">Soccer team VR</article></a>
-      <a href="#"><article class="main__card">The grid</article></a>
-      <a href="#"><article class="main__card">From up above VR</article></a>
-      <a href="#"><article class="main__card">Pocket borealis</article></a>
-      <a href="#"><article class="main__card">The curiosity</article></a>
-      <a href="#"><article class="main__card">Make it fisheye</article></a>
+      <a href="#"><article class="main__card main__card--deep-earth">Deep <br> earth</article></a>
+      <a href="#"><article class="main__card main__card--night-arcade">Night <br> arcade</article></a>
+      <a href="#"><article class="main__card main__card--soccer-team">Soccer <br> team VR</article></a>
+      <a href="#"><article class="main__card main__card--grid">The grid</article></a>
+      <a href="#"><article class="main__card main__card--from-above">From up <br> above VR</article></a>
+      <a href="#"><article class="main__card main__card--pocket-borealis">Pocket <br> borealis</article></a>
+      <a href="#"><article class="main__card main__card--curiosity">The <br> curiosity</article></a>
+      <a href="#"><article class="main__card main__card--fisheye">Make it <br> fisheye</article></a>
     </div>
 
     <button class="main__button">See all</button>
@@ -64,21 +64,18 @@
       <a href="#" class="menu__footer--item">Support</a>
     </div>
 
-    <div class="social__medias--footer">
-      <a href="#"><img src="./images/icon-facebook.svg" alt="Loopstudios in Facebook"></a>
-      <a href="#"><img src="./images/icon-twitter.svg" alt="Loopstudios in Twitter"></a>
-      <a href="#"><img src="./images/icon-pinterest.svg" alt="Loopstudios in Pinterest"></a>
-      <a href="#"><img src="./images/icon-instagram.svg" alt="Loopstudios in Instagram"></a>
+    <div class="social__media--footer">
+      <a href="#" class="social__media--item"><img src="./images/icon-facebook.svg" alt="Loopstudios in Facebook"></a>
+      <a href="#" class="social__media--item"><img src="./images/icon-twitter.svg" alt="Loopstudios in Twitter"></a>
+      <a href="#" class="social__media--item"><img src="./images/icon-pinterest.svg" alt="Loopstudios in Pinterest"></a>
+      <a href="#" class="social__media--item"><img src="./images/icon-instagram.svg" alt="Loopstudios in Instagram"></a>
     </div>
 
     <p class="text__footer--rights">© 2021 Loopstudios. All rights reserved.</p>
+
+    <p class="credits">Coded by <a class="credits__name" href="https://www.linkedin.com/in/alexandreduara/">Alexandre Duarte</a></p>
   </footer>
 
-  
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <script src="index.js"></script>
 </body>
 </html>
