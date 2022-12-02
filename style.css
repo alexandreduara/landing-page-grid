@@ -30,6 +30,42 @@ header{
 }
 
 .logo{
-    padding: 40px 0px 0px 30px;
-    width: 140px;
+    padding: 50px 0px 0px 40px;
+    width: 180px;
+}
+
+.menu__button{
+    text-decoration: none;
+    background-color: transparent;
+    position: absolute;
+    right: 50px;
+    top: 38px;
+    display: flex;
+}
+
+.menu__button--image{
+    width: 30px;
+}
+
+.menu__lateral--links{
+    margin-top: 10em;
+}
+
+.menu__lateral--item{
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 400;
+    font-size: 2em;
+    margin: 30px 0px 0px 40px;
+    text-transform: uppercase;
+}
+
+.menu__lateral{
+    background-color: var(--black);
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
 }
