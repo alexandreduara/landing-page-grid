@@ -1,3 +1,4 @@
+
 # Olá! :raising_hand: Neste projeto eu criei um website para treinar os meus conhecimentos
 
 ## Fique a vontade para sugerir alterações, este é o momento de colocar os meus atuais conhecimentos em prática :)
@@ -6,6 +7,12 @@
 ## [Deploy do Website - dê uma olhada em como ficou o site :wink: ](https://alexandreduara.github.io/landing-page-grid/)
 <br>
 
+# Olá, criei este projeto para treinar meus conhecimentos em grid e flex-box
+
+[Link do Deploy](https://alexandreduara.github.io/landing-page-grid/)
+
+
+## Este é o modelo de como deve ficar o projeto:
 ![Design preview for the Loopstudios landing page coding challenge](./design/desktop-preview.jpg)
 
 ## Neste projeto eu :books:
