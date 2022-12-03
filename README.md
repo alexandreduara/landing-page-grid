@@ -7,12 +7,6 @@
 ## [Deploy do Website - dê uma olhada em como ficou o site :wink: ](https://alexandreduara.github.io/landing-page-grid/)
 <br>
 
-# Olá, criei este projeto para treinar meus conhecimentos em grid e flex-box
-
-[Link do Deploy](https://alexandreduara.github.io/landing-page-grid/)
-
-
-## Este é o modelo de como deve ficar o projeto:
 ![Design preview for the Loopstudios landing page coding challenge](./assets/img/design/desktop-preview.jpg)
 
 ## Neste projeto eu :books:
