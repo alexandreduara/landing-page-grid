@@ -20,7 +20,7 @@ body{
 }
 
 .hero__image{
-    background-image: url("./images/mobile/image-hero.jpg");
+    background-image: url("../img/mobile/image-hero.jpg");
     background-position: center;
     height: 100%;
     background-repeat: no-repeat;
@@ -53,6 +53,7 @@ header{
 
 .menu__lateral--links{
     margin-top: 10em;
+    
 }
 
 .menu__lateral--item{
@@ -67,7 +68,7 @@ header{
 .menu__lateral{
     background-color: var(--black);
     height: 100vh;
-    position: absolute;
+    position: sticky;
     top: 0px;
     width: 100vw;
     display: flex;
@@ -142,14 +143,15 @@ header{
         font-size: 2em;
         font-weight: bolder;
         text-transform: capitalize;
+
     }
 
     .header__title{
         margin: 0px 0px 0px 150px;
-        font-size: 150px;
-        width: 1100px;
-        bottom: 710px;
-        padding: 50px 110px;
+        font-size: 100px;
+        width: 800px;
+        bottom: 500px;
+        padding: 50px 60px;
         text-shadow: 2px 2px 2px black;
     }
 
@@ -196,28 +198,28 @@ header{
 /* Imagens dos cards */
 
 .main__card--deep-earth{
-    background-image: url("./images/mobile/image-deep-earth.jpg");
+    background-image: url("../img/mobile/image-deep-earth.jpg");
 }
 .main__card--night-arcade{
-    background-image: url("./images/mobile/image-night-arcade.jpg");
+    background-image: url("../img/mobile/image-night-arcade.jpg");
 }
 .main__card--soccer-team{
-    background-image: url("./images/mobile/image-soccer-team.jpg");
+    background-image: url("../img/mobile/image-soccer-team.jpg");
 }
 .main__card--grid{
-    background-image: url("./images/mobile/image-grid.jpg");
+    background-image: url("../img/mobile/image-grid.jpg");
 }
 .main__card--from-above{
-    background-image: url("./images/mobile/image-from-above.jpg");
+    background-image: url("../img/mobile/image-from-above.jpg");
 }
 .main__card--pocket-borealis{
-    background-image: url("./images/mobile/image-pocket-borealis.jpg");
+    background-image: url("../img/mobile/image-pocket-borealis.jpg");
 }
 .main__card--curiosity{
-    background-image: url("./images/mobile/image-curiosity.jpg");
+    background-image: url("../img/mobile/image-curiosity.jpg");
 }
 .main__card--fisheye{
-    background-image: url("./images/mobile/image-fisheye.jpg");
+    background-image: url("../img/mobile/image-fisheye.jpg");
 }
 
 .main__button, .main__button--desktop{
@@ -250,17 +252,17 @@ header{
     .main__content--leader{
         background-color: var(--white);
         position: relative;
-        bottom: 750px;
+        bottom: 540px;
         width: 32vw;
         padding: 140px;
-        left: 1250px;
+        left: 1020px;
         padding-bottom: 30px;
     }
 
     .main__title--leader{
         text-align: left;
         width: 37vw;
-        font-size: 90px;
+        font-size: 60px;
         padding: 0px 0px 30px 0px;
     }
 
@@ -316,25 +318,25 @@ header{
     }
 
     .main__card--deep-earth{
-        background-image: url("./images/desktop/image-deep-earth.jpg");
+        background-image: url("../img/desktop/image-deep-earth.jpg");
     }
     .main__card--night-arcade{
-        background-image: url("./images/desktop/image-night-arcade.jpg");
+        background-image: url("../img/desktop/image-night-arcade.jpg");
     }
     .main__card--soccer-team{
-        background-image: url("./images/desktop/image-soccer-team.jpg");
+        background-image: url("../img/desktop/image-soccer-team.jpg");
     }
     .main__card--grid{
-        background-image: url("./images/desktop/image-grid.jpg");
+        background-image: url("../img/desktop/image-grid.jpg");
     }
     .main__card--from-above{
-        background-image: url("./images/desktop/image-from-above.jpg");
+        background-image: url("../img/desktop/image-from-above.jpg");
     }
     .main__card--pocket-borealis{
-        background-image: url("./images/desktop/image-pocket-borealis.jpg");
+        background-image: url("../img/desktop/image-pocket-borealis.jpg");
     }
     .main__card--curiosity{
-        background-image: url("./images/desktop/image-curiosity.jpg");
+        background-image: url("../img/desktop/image-curiosity.jpg");
     }
     .main__card--fisheye{
         background-image: url("./images/desktop/image-fisheye.jpg");
@@ -429,7 +431,7 @@ footer{
 
     .menu__footer--item{
         position: relative;
-        right: 1820px;
+        right: 1260px;
         font-weight: bolder;
         top: 140px;
         font-size: 1.5em;
@@ -437,27 +439,27 @@ footer{
 
     .logo__footer{
         position: relative;
-        right: 650px;
+        right: 410px;
         width: 250px;
     }
     
     .social__media--footer{
         position: relative;
         width: 150px;
-        left: 860px;
+        left: 690px;
         bottom: 100px;
     }
 
     .text__footer--rights{
         position: relative;
-        left: 760px;
+        left: 560px;
         font-size: 1.6em;
         bottom: 75px;
     }
 
     .credits{
         position: relative;
-        bottom: 30px;
+        bottom: 80px;
         font-size: 30px;
         
     }
