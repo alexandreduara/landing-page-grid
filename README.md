@@ -13,7 +13,7 @@
 
 
 ## Este é o modelo de como deve ficar o projeto:
-![Design preview for the Loopstudios landing page coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Loopstudios landing page coding challenge](./assets/img/design/desktop-preview.jpg)
 
 ## Neste projeto eu :books:
 - ### Comecei a solidificar os meus conhecimentos em HTML e CSS, 
